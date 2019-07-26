@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-26T06:45:05Z" name="Suite" finished-at="2019-07-26T06:45:07Z" duration-ms="2003">
+  <suite started-at="2019-07-26T08:09:23Z" name="Default suite" finished-at="2019-07-26T08:09:25Z" duration-ms="2036">
     <groups>
     </groups>
-    <test started-at="2019-07-26T06:45:05Z" name="Test1" finished-at="2019-07-26T06:45:07Z" duration-ms="2003">
-      <class name="com.apitesting.ApiTest1">
-        <test-method signature="test()[pri:0, instance:com.apitesting.ApiTest1@4ae3c1cd]" started-at="2019-07-26T06:45:05Z" name="test" finished-at="2019-07-26T06:45:07Z" duration-ms="1979" status="PASS">
+    <test started-at="2019-07-26T08:09:23Z" name="Default test" finished-at="2019-07-26T08:09:25Z" duration-ms="2036">
+      <class name="com.apitesting.ValidateStatus">
+        <test-method signature="validateCorrectStatus()[pri:0, instance:com.apitesting.ValidateStatus@4ae3c1cd]" started-at="2019-07-26T08:09:23Z" name="validateCorrectStatus" finished-at="2019-07-26T08:09:25Z" duration-ms="2015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.apitesting.ApiTest1 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- validateCorrectStatus -->
+      </class> <!-- com.apitesting.ValidateStatus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

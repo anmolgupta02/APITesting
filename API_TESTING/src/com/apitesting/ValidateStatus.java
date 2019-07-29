@@ -30,9 +30,6 @@ public class ValidateStatus {
 		int StatusCodeExpeted = 200;
 		
 		Assert.assertEquals(statusCodeActual, StatusCodeExpeted);
-		
-		
-		
 	}
 	
 }

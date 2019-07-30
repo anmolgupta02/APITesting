@@ -28,4 +28,12 @@ public class ConfigReader {
 	public String readApi() {
 		return prop.getProperty("apiReq");
 	}
+	
+	public String getBaseInsta() {
+		return prop.getProperty("baseUrlInsta");
+	}
+	
+	public String getLoginInsta() {
+		return prop.getProperty("loginAPI");
+	}
 }

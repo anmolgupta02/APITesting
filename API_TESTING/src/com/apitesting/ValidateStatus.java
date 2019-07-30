@@ -2,13 +2,11 @@ package com.apitesting;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.sun.tools.jxc.ConfigReader;
-
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+
 
 public class ValidateStatus {
 	

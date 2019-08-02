@@ -15,21 +15,21 @@ public class PostTest2 {
 		
 		RequestSpecification request = RestAssured.given();
 		
-		request.header("Content-Type","application/json");
+		request.header("Content-Type","application/x-www-form-urlencoded");
+		request.header("Accept","application/json");
 		
 		JSONObject json = new JSONObject();
 		
-		json.put("id", "25");
-		json.put("title", "Selenium Test");
-		json.put("author", "Learn Automation");
+		json.put("email", "anmol91@yopmail.com");
+		json.put("password","12345678");
 		
 		request.body(json.toJSONString());
 		
-		Response res = request.post("http://localhost:3000/posts/");
+		Response res = request.post("https://instacei.com:4010/user/webLogin");
 
 		int code = res.getStatusCode();
 		
-		Assert.assertEquals(code, 201);
+		Assert.assertEquals(code, 200);
 	}
 	
 	

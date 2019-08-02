@@ -34,5 +34,29 @@
 	<classpathentry kind="lib" path="/home/appventurez/Documents/seljars/API Docs/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/appventurez/Downloads/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/concurrent-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/annotations-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/checker-qual-2.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/javafx-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-stdlib-common-1.3.41.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-stdlib-jdk7-1.3.41.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/guava-28.0-jre.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/unit-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/animal-sniffer-annotations-1.17.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-stdlib-jdk8-1.3.41.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-reflect-1.3.41.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-stdlib-1.3.41.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/error_prone_annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/exceptions-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/kotlin-8.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/appventurez/Downloads/javafx/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFx"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JAVAFX"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

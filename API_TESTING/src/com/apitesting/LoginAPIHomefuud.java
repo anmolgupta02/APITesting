@@ -109,7 +109,7 @@ public class LoginAPIHomefuud extends Application{
 		XYChart.Series<Number, Number> data = new XYChart.Series<Number, Number>();
 		
 			
-		data.getData().add(new XYChart.Data<Number, Number>(LoginTest(), LoginTest()));
+		data.getData().add(new XYChart.Data<Number, Number>(LoginTest(), 560));
 		
 		lineChart.getData().add(data);
 		root.getChildren().add(lineChart);
@@ -119,7 +119,7 @@ public class LoginAPIHomefuud extends Application{
 		primStage.setScene(scene);
 		primStage.show();
 		
-		
+		System.out.println("time fetched:" +time);
 		//Saving Report 
 		lineChart.setAnimated(false);
 	
